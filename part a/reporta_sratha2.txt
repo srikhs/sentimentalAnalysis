@@ -1,0 +1,53 @@
+----Search API-----
+Search Term: Cricket
+"The Hindu - India - Kohlis smashed you enough retort leaves Faulkner stumped - https:\/\/t.co\/2y5SW7v2QD"
+
+Damiani, Sanguinetti, Martha Canessa, Gorzy, Vilar, tribuna con nombre de un ingl\u00e9s presidente de un club de cricket... todo muy popular.
+
+I made my point 8 years ago. If people don't listen it's not my fault. Problem is in our domestic cricket .  https:\/\/t.co\/C2CUPJWhZB
+
+-----ReadMe------
+The search term used is "Cricket"
+This searches for the tweets with the word "Cricket" in it and it returns the tweets with that.
+The search term is passed using the search parameter, "q"
+
+
+
+----30 frequent words--
+
+rt 0.06358852274151108
+like 0.005763688760806916
+love 0.005011903270266884
+amp 0.00476130810675354
+get 0.004510712943240195
+know 0.0036336298709434907
+u 0.0033203859165518105
+people 0.0031950883347951387
+one 0.0030697907530384664
+new 0.0030697907530384664
+happy 0.0028191955895251223
+re 0.002756546798646786
+good 0.002756546798646786
+time 0.002568600426011778
+life 0.002568600426011778
+go 0.002568600426011778
+day 0.002568600426011778
+want 0.00238065405337677
+iheartawards 0.0023180052624984337
+bestfanarmy 0.0023180052624984337
+shit 0.0022553564716200976
+see 0.0022553564716200976
+need 0.0022553564716200976
+lol 0.0022553564716200976
+easter 0.0022553564716200976
+back 0.0022553564716200976
+2 0.0022553564716200976
+video 0.0021927076807417615
+much 0.0021300588898634258
+got 0.0018168149354717454
+
+-----ReadMe------
+This reads the tweets and splits the words and stores each and every word in the list. The list is then compared with the stopwords.txt file and those who match are removed.
+Now, the cleaned list is processed to find their number of occurence and divided with no. of words in the list.
+I have mapped the words along with their score.
+Then, I am populating them in a list in the order with highest frequencies and am printing the list
